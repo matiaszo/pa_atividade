@@ -6,6 +6,8 @@ import { Header } from "@/components/header";
 import { Body } from "@/components/body";
 import { ShoppingOverflow } from "@/components/shoppingOverflow";
 import { InformationOverflow } from "@/components/informationOverflow"
+import { BottomBody } from "@/components/bottomBody"
+import { BottomCard } from "@/components/bottomCard"
 
 const roboto = Roboto({
   weight: ["100", "400", "900"],
@@ -36,6 +38,8 @@ export default function RootLayout({
         <Body/>
         <ShoppingOverflow/>
         <InformationOverflow/>
+        <BottomBody/>
+        <BottomCard/>
       </body>
     </html>
   );
